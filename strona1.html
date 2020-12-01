@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proste działania</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="baner">
+        <a href="index.html"><img src="baner.jpg" alt="baner"></a>
+    </div>
+
+    <main>
+        <nav class="menu">
+            <span>Menu</span>
+            <ul>
+                <li>
+                    <a href="strona1.html">proste działania</a>
+                </li>
+                <li>
+                    <a href="strona2.php">potęgowanie</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="content">
+            <h1>Proste działania</h1>
+            <form action="#">
+                <div>
+                    <label for="liczba1">Podaj pierwszą liczbę: </label>
+                    <input type="number" name="liczba1" id="liczba1">
+                </div>
+
+                <div>
+                    <label for="liczba2">Podaj drugą liczbę: </label>
+                    <input type="number" name="liczba2" id="liczba2">
+                </div>
+            </form>
+            <button id="plus">Dodawania</button>
+            <button id="minus">Odejmowanie</button>
+            <button id="multiplication">Mnożenie</button>
+            <button id="devided">Dzielenie</button>
+
+            <span id="info"></span>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
